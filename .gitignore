@@ -1,0 +1,44 @@
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+
+# Local config
+*.env
+*.ini
+*.local
+*.secret
+
+# Logs and downloads
+logs/
+*.log
+videos/
+
+# Tooling caches
+.mypy_cache/
+.pytest_cache/
+ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editors/OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
